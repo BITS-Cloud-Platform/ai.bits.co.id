@@ -1,0 +1,51 @@
+# ─── Environment Variables ───────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ─── Docker ──────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── Data & Runtime ──────────────────────────────────────
+/app/data
+data/
+*.log
+*.pid
+*.seed
+
+# ─── OS Files ────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ─── IDE & Editor ────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# ─── Git ─────────────────────────────────────────────────
+# Keep git directory clean
+!.gitignore
+
+# ─── Node (if applicable) ────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Misc ────────────────────────────────────────────────
+*.bak
+*.tmp
+tmp/
+temp/
